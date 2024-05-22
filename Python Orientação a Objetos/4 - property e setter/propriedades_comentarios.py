@@ -2,11 +2,11 @@
 
 Geralmente o getter e o setter, são utilizados, quando o atributo é privado.
 
-@property - irá retornar, em outras linguagem equivale ao get
+@property - irá retornar, em outras linguagem equivale ao get.
 
-@atributo.setter - para realizar modificações, não retorna valor
+@atributo.setter - para realizar modificações, não retorna valor.
 
-@atributo.setter - permite remover um atributo
+@atributo.setter - permite remover um atributo.
 
 '''
 
