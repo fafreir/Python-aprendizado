@@ -1,6 +1,11 @@
-# Na herança é herdado: atributos e métodos da classe pai
-# classe pai ou base - a classe de onde os atributos e métodos são herdados
-# classe filha - é a que herda
+'''
+ Na herança é herdado: atributos e métodos da classe pai
+
+ classe pai ou base - a classe de onde os atributos e métodos são herdados
+ 
+ classe filha - é a que herda
+'''
+
 
 class Veiculo:  # classe pai ou base
     def __init__(self, cor, placa, numero_rodas):
