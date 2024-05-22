@@ -1,3 +1,7 @@
+# Modificador de acesso: define o escopo
+# Existem 3 modificadores: public, private (__) e protected(_)
+# Em Python, utilizam uma convenção de não acessar diretamente private e protected
+
 class Conta:
     def __init__(self, nro_agencia, saldo=0):
         self._saldo = saldo
