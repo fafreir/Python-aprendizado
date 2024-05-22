@@ -1,8 +1,4 @@
-# Na herança é herdado: atributos e métodos de outra classe
-# classe pai ou base - a classe de onde os atributos e métodos são herdados
-# classe filha - é a que herda
-
-class Veiculo:  # classe pai ou base
+class Veiculo:
     def __init__(self, cor, placa, numero_rodas):
         self.cor = cor
         self.placa = placa
@@ -15,7 +11,7 @@ class Veiculo:  # classe pai ou base
         return f"{self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
 
 
-class Motocicleta(Veiculo):  # classe filha
+class Motocicleta(Veiculo):
     pass
 
 
