@@ -1,11 +1,16 @@
-# Modificador de acesso: define o escopo
-# Existem 3 modificadores: public, private (__) e protected(_)
-# Em Python, utilizam uma convenção de não acessar diretamente private e protected
+'''
+ Modificador de acesso: define o escopo
+ Existem 3 modificadores: public, private e protected
+ Para modificar para private, _atributo
+ Ainda é possível acessar, porém não é uma boa prática
+ Uma boa prática, criar um metodo para retornar
+'''
+
 
 class Conta:
     def __init__(self, nro_agencia, saldo=0):
-        self._saldo = saldo
-        self.nro_agencia = nro_agencia
+        self._saldo = saldo  # privado
+        self.nro_agencia = nro_agencia  # publico
 
     def depositar(self, valor):
         self._saldo += valor
