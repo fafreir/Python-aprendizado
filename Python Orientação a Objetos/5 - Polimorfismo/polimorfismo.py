@@ -1,11 +1,3 @@
-"""
-
-Polimorfismo - utilizar com herança, tenho o mesmo nome de metodo, 
-porém com assinaturas diferentes.
-
-"""
-
-
 class Passaro:
     def voar(self):
         print("Voando...")
@@ -13,11 +5,11 @@ class Passaro:
 
 class Pardal(Passaro):
     def voar(self):
-        super().voar()  # herdando o método da classe pai (Passaro)
+        super().voar()
 
 
 class Avestruz(Passaro):
-    def voar(self):  # Utilizando meu próprio metodo
+    def voar(self):
         print("Avestruz não pode voar")
 
 
