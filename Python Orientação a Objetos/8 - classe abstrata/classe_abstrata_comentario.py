@@ -3,7 +3,8 @@ As classes abstratas
 - definem um contrato que as classes derivadas devem seguir.
 - As classes que herdarem, precisaram implementar os métodos necessários
 - Fornece um módulo ABC, no qual é necessário importar
-- Precisa utilizar o decorador @abstractmethod 
+- Precisa herdar o ABC 
+- utilizar o decorador @abstractmethod 
 """
 
 # Documentação: https://docs.python.org/pt-br/3/library/abc.html
