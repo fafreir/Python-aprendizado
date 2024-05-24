@@ -1,9 +1,9 @@
 '''
 Decorator
 - Posso alterar o comportamento da função
-- Preciso do decorator @nome_funcao
+- Preciso da anotação @nome_funcao
 - Dentro da função que está como decorator, vou conseguir acessar as informações da outra função
-- É como se eu entrasse na função que tem decorator, e passasse a outra função como argumento
+- É como se eu entrasse na função que está como decorator, e passasse a outra função como argumento
 '''
 from datetime import datetime
 
