@@ -1,11 +1,12 @@
-'''
-Em listas, podem podemos ter elementos de vários tipos juntos
-Pode ser criado utilizando colchetes[] ou pela palavra reservada list
-Tipo de lista é list
-Podemos acessar pelo indice
-Lembrando que o indice começa por 0
-'''
+"""
+Listas em Python
+Tipo list - Mutável
+Suporta vários valores de qualquer tipo
+Conhecimentos reutilizáveis - índices e fatiamento
+Métodos úteis: append, insert, pop, del, clear, extend, +
+"""
 
+# lista = []
 lista = list()
 print(type(lista))  # <class 'list'>
 
