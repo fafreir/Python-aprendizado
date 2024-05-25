@@ -1,12 +1,19 @@
 '''
-Em listas, podem ser de vários tipos, até juntos
+Em listas, podem podemos ter elementos de vários tipos juntos
+Pode ser criado utilizando colchetes[] ou pela palavra reservada list
+Tipo de lista é list
 Podemos acessar pelo indice
 Lembrando que o indice começa por 0
 '''
+
+lista = list()
+print(type(lista))  # <class 'list'>
+
 preco_1 = 10
 preco_2 = 20
 preco_3 = 30
 
+# Utilizando colchetes
 precos = [10, 20, 30, 40, 50, 60, 100, 250]
 print(precos[0])  # acesso é pelo indice
 print(precos.index(10))  # 0
@@ -42,10 +49,10 @@ lista2 = [5, 6, 7, 8]
 soma = 0
 somas = 0
 
-for i in [lista1, lista2]: # Acessa a lista
-    for num in i: # descompacta/acessa cada valor
-        soma += num # incrementado
-        ultimo_valor = num # recebe o ultimo valor
+for i in [lista1, lista2]:  # Acessa a lista
+    for num in i:  # descompacta/acessa cada valor
+        soma += num  # incrementado
+        ultimo_valor = num  # recebe o ultimo valor
 
 print(soma)  # 36
 
