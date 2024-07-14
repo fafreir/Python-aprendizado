@@ -73,3 +73,14 @@ for linha in matriz:
             maior = num
 
 print(f'Maior numero: {maior}')
+
+# Posso realizar tudo em uma linha com o List Comprehension
+resultado = [x for x in range(5)]
+print(resultado)
+
+# Numeros pares, utilizando o step do range, dentro de uma List Comprehension
+pares = [numeros for numeros in range(0,33,2)]
+print(pares)
+
+impar = [numeros for numeros in range(0,33+1) if numeros % 2 != 0]
+print(impar)
