@@ -84,3 +84,7 @@ print(pares)
 
 impar = [numeros for numeros in range(0,33+1) if numeros % 2 != 0]
 print(impar)
+
+nomes = ['josé', 'wiLLIam ', ' maRia', 'Analice']
+nomes_normalizados = [nome.strip().capitalize() for nome in nomes]
+print(nomes_normalizados)
